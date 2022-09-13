@@ -1,0 +1,1 @@
+console.log("Our extension has loaded");

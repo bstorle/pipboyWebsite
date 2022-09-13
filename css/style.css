@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300 !important;
+    margin: 0px;
+    
+
+}
+body h1{
+    font-weight: 300;
+    margin: 20px 30px;
+
+}
+#main-header {
+    border-bottom: 2px solid black;
+}
+
+
+#st{
+    font-family: 'Macondo', cursive ;
+    display: inline-block;
+
+}
+.profilemenu{
+    list-style: none;
+    float: right;
+    margin-top: 40px;
+    margin-right: 10px;
+
+}
+[data-trigger="dropdown"]{
+    padding-bottom: 35px;
+}
+.submenu{
+    list-style: none;
+    padding: 5px;
+    border: 1px solid black;
+    margin-top: 26px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,.3);
+    width: 300px;
+    position: absolute;
+    right: 10px;
+    display: none;
+
+}
+.submenu.active{
+    display: block;
+}
+.submenu a{
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+    color: black;
+    text-shadow: none;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+.submenu a:hover {
+    background: #eee;
+}
+
+section {
+    max-width: 100%;
+    width:900px;
+    margin: auto;
+
+}
+
+#context{
+    display: inline-block;
+    position: absolute;
+    background: #fff;
+    box-shadow: 2px 2px 15px rgb(0 0 0 / 30%);
+    display: none;
+}
+.itemmenu{
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+
+}
+.itemmenu a{
+    display: block;
+    width: 200px;
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+    text-shadow: none;
+    font-weight: 600;
+}
+.itemmenu a:hover{
+    background: #eee;
+}
+
+.itemmenu a.hidden{
+    display: none ;
+}
+
+.itemmenu a.hidden.shown{
+    display:block;
+}

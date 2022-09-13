@@ -1,0 +1,11 @@
+{
+    "name" : "My first extension",
+    "description":" shows a menu item",
+    "version": "0.1",
+    "permissions":["contextMenus","activeTab"],
+    "background.service_worker":{
+        "scripts":["D:/webd/background.js"]
+    },
+    "author":"bhenu",
+    "manifest_version":3
+}
